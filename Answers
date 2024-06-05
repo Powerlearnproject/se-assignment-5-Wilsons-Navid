@@ -1,0 +1,69 @@
+Questions:
+
+1. Installation of VS Code:
+   - Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+     -got to vscode.com and download vscode
+     -install it by giving it admin assess on your machine
+2. First-time Setup:
+
+   - After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+     - codesence is a very good extension
+       -we can also connect it to github
+
+3. User Interface Overview:
+
+   - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
+
+   Activity Bar: This is the sidebar conatining the icons
+   Sidebar: it's a sub section of the Activity bar that appears when an icon the activity bar is clicked
+   Editor Group: This is the main part of the vs code that the code is written
+   Status Bar: the top bottom bar containing information like sourcery
+
+4. Command Palette:
+
+   - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
+   - The command pallete allows for faster and easier navigation of vscode without going through every menu - Ctrl+Shift+P
+
+5. Extensions in VS Code:
+
+   - Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
+
+   Extensions serves as assistants to enable programs either in better readbility, better usage, and better programming practices
+
+6. Integrated Terminal:
+
+   - Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
+     The terminal can be assessed through the top left hand icon in the vscode. By default, it appears to appear at the bottom of the vscode screen, and it is almost similar as the external terminal.
+
+7. File and Folder Management:
+
+   - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+     - the user can click of the 3 lines icon at the top left of the screen and then file. When a file is created, there is an option at the top left of the activity bar that gives the option to either create a new folder or a file, and that's how it works. To create a folder withing a folder, you click the folder, then click the icon for new file, and a new file will be created.
+
+8. Settings and Preferences:
+
+   - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
+     There is a setting button at the buttom of the activity bar, and there there is an option to chnage the themes and font sizes. You can also search in the command pallete.
+
+9. Debugging in VS Code:
+
+   - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code? - The are so many ways such as using breakpoints, and also in the run option when the top left menu icon is clicked, you will debugging, and you can debug,by seeing the error in the command line
+
+10. Using Source Control:
+
+    - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+
+    Using the terminal,,,create a local repository
+    Go to the terminal and write:
+    1- git init
+    2- git add .
+    3- git commit -m 'commit message'
+    4- git remote add origin "github-repository" : connects it to the remote repository
+    5- git push -u origin
+
+Submission Guidelines:
+
+- Your answers should be well-structured, concise, and to the point.
+- Provide screenshots or step-by-step instructions where applicable.
+- Cite any references or sources you use in your answers.
+- Submit your completed assignment by 1st July
